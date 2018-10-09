@@ -9,9 +9,9 @@
         d3.csv("data.csv", function(data) {
             console.log(data);
             
-            for (var i = 1; i < data.length; i =i + 2) {
-                console.log(data[i].Q);
-                console.log(data[i].A);
+            for (var i = 0; i < data.length; i++) {
+                console.log(data[i].question);
+                console.log(data[i].answer);
             }
         });
         </script>
